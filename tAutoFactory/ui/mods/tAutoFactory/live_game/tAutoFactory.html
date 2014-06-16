@@ -1,0 +1,46 @@
+<!-- ko if: !model.isSpectator() && tAutoFactory.show_ui === 1 && tAutoFactory.active === 0 -->
+<table>
+    <tr>
+        <th>
+            <div id="tAutoFactory_head">Auto Factory [0]</div>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <div id="tAutoFactory_button">
+                <input type="button" onclick="tAutoFactory.enable()" value="Enable Auto-Build" />
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div id="tAutoFactory_manual_button">
+                <input type="button" onclick="tAutoFactory.manual(event)" value="Manual Build" />
+            </div>
+        </td>
+    </tr>
+</table>
+<!-- /ko -->
+<!-- ko if: !model.isSpectator() && tAutoFactory.show_ui === 1 && tAutoFactory.active === 1 -->
+<table>
+    <tr>
+        <th>
+            <div id="tAutoFactory_head">Auto Factory [0]</div>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <div id="tAutoFactory_button">
+                <input type="button" onclick="tAutoFactory.disable()" value="Disable Auto-Build" />
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div id="tAutoFactory_manual_button">
+                <input type="button" onclick="tAutoFactory.manual(event)" value="Manual Build" />
+            </div>
+        </td>
+    </tr>
+</table>
+<!-- /ko -->

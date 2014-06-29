@@ -1,19 +1,8 @@
 (function() {
 
-	_.extend(api.settings.definitions.ui.settings, {
+    //console.log("af roll call live game settings");
 
-	tAutoFactory_show_ui: {
-		title: 'Auto Factory - Show UI',
-		type: 'select',
-		options: ['YES', 'NO'],
-		default: 'YES'
-	},
-	tAutoFactory_auto_on: {
-		title: 'Auto Factory - Auto-Build on by default',
-		type: 'select',
-		options: ['YES', 'NO'],
-		default: 'NO'
-	},
+	_.extend(api.settings.definitions.ui.settings, {
 
 	tAutoFactory_dd_t1_bot: {
 		title: 'Auto Factory - T1 Bot Unit Choice',

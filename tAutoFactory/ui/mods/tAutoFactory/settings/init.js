@@ -248,5 +248,9 @@
 	},
 */
 
-  })
+	});
+
+	//fix for settings not shown
+	//model.settingGroups.notifySubscribers(); }));
+	model.settingDefinitions(api.settings.definitions)
 })()

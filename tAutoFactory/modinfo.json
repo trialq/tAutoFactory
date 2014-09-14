@@ -4,9 +4,9 @@
     "display_name": "Auto Factory",
     "description": "Automatically build units with idle factories, when eco would otherwise be wasted",
     "author": "trialq",
-    "version": "1.8.1",
-    "build": "68767",
-    "date": "2014/07/14",
+    "version": "1.8.2",
+    "build": "71937",
+    "date": "2014/09/14",
     "signature": "not yet implemented",
     "forum": "https://forums.uberent.com/threads/rel-auto-factory.55995/",
     "icon": "http://pamods.github.io/icons/tAutoFactory.png",
@@ -15,17 +15,16 @@
         "ui"
     ],
     "scenes": {
+        "settings": [
+            "coui://ui/mods/tAutoFactory/settings/init.js"
+        ],
         "live_game": [
             "coui://ui/mods/tAutoFactory/live_game/init.js"
         ],
         "live_game_options_bar": [
             "coui://ui/mods/tAutoFactory/live_game_options_bar/init.js"
-        ],
-        "settings": [
-            "coui://ui/mods/tAutoFactory/settings/init.js"
         ]
     },
-    "id": "tAutoFactory",
     "priority": 100,
     "enabled": true
 }
